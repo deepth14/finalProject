@@ -37,14 +37,14 @@ public class CategoryServiceImpl implements CategoryService {
     public void deleteCategoryById(Long id) {
         categoryRepository.deleteById(id);
     }
-
-    @Override
-    public String demsasito() {
-
-        categoryRepository.flush();
-        if(categoryRepository.count() ==0) {
-            return "flushed";
-        }
-        return "something wrong";
-    }
+//
+//    @Override
+//    public String demsasito() {
+//
+//        categoryRepository.flush();
+//        if(categoryRepository.count() ==0) {
+//            return "flushed";
+//        }
+//        return "something wrong";
+//    }
 }

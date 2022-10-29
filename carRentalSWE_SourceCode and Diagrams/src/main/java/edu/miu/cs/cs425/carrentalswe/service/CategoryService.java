@@ -10,6 +10,6 @@ public interface CategoryService {
     Category getCategoryByName(String name);
     Category createCategory(Category category);
     void deleteCategoryById(Long id);
-    String demsasito();
+    //String demsasito();
 
 }
